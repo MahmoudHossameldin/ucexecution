@@ -1,0 +1,1 @@
+.primary-sidebar{padding:1.5rem;font-family:var(--highlight-font-family);font-stretch:condensed;max-width:var(--content-width);margin-left:auto;margin-right:auto}@media screen and (min-width:60em){.primary-sidebar{max-width:var(--sidebar-width)}}@media screen and (min-width:48em){.primary-sidebar{padding-left:2rem;padding-right:2rem}}

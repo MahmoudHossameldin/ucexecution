@@ -1,0 +1,725 @@
+# Copyright (C) 2021 UC Execution
+# This file is distributed under the same license as the UC Execution package.
+msgid ""
+msgstr ""
+"Project-Id-Version: UC Execution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Mahmoud Hossameldin\n"
+"Report-Msgid-Bugs-To: UC Execution\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../uc-execution/comments.php:33
+msgid "Comments"
+msgstr ""
+
+#: ../uc-execution/comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: ../uc-execution/header.php:40
+msgid "Skip to content"
+msgstr ""
+
+#: ../uc-execution/inc/Accessibility/Component.php:69
+msgid "Expand child menu"
+msgstr ""
+
+#: ../uc-execution/inc/Accessibility/Component.php:70
+msgid "Collapse child menu"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: ../uc-execution/inc/back-compat.php:25
+msgid "UC Execution requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: ../uc-execution/inc/back-compat.php:30
+msgid "UC Execution requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: ../uc-execution/inc/back-compat.php:35
+msgid "UC Execution requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#: ../uc-execution/inc/Base_Support/Component.php:252
+msgctxt "%s = comment human-readable time ago"
+msgid "%s ago"
+msgstr ""
+
+#: ../uc-execution/inc/Comments/Component.php:132
+msgid "New comment(s)"
+msgstr ""
+
+#: ../uc-execution/inc/Customizer/Component.php:77
+msgid "Theme Options"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:65, ../uc-execution/inc/Nav_Menus/Component.php:68
+msgid "Primary"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:75
+msgid "Red"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:80
+msgid "Green"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:85
+msgid "Blue"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:100
+msgid "Grey"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:105
+msgid "White"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: ../uc-execution/inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: ../uc-execution/inc/Sidebars/Component.php:72
+msgid "Sidebar"
+msgstr ""
+
+#: ../uc-execution/inc/Sidebars/Component.php:74, ../uc-execution/inc/Sidebars/Component.php:85
+msgid "Add widgets here."
+msgstr ""
+
+#: ../uc-execution/inc/Sidebars/Component.php:83
+msgid "Footer widgets"
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: ../uc-execution/inc/Styles/Component.php:235
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../uc-execution/inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: ../uc-execution/inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../uc-execution/inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../uc-execution/inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../uc-execution/inc/Theme.php:60
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: ../uc-execution/inc/Theme.php:126
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: ../uc-execution/no-sidebar.php:3
+msgid "No Sidebar"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/entry-attachment.php:33
+msgid "Previous:"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/entry-attachment.php:43
+msgid "Next:"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/entry.php:23
+msgid "Continue reading &gt;"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/entry.php:43
+msgid "Previous article:"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/entry.php:44
+msgid "Next article:"
+msgstr ""
+
+#. translators: %s: post title
+#: ../uc-execution/template-parts/content/entry_actions.php:21
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: ../uc-execution/template-parts/content/entry_actions.php:40
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: ../uc-execution/template-parts/content/entry_content.php:18
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/entry_content.php:31
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: post date
+#: ../uc-execution/template-parts/content/entry_meta.php:63
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../uc-execution/template-parts/content/entry_meta.php:76
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../uc-execution/template-parts/content/entry_meta.php:79
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../uc-execution/template-parts/content/entry_meta.php:95
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../uc-execution/template-parts/content/entry_meta.php:98
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#. translators: separator between taxonomy terms
+#: ../uc-execution/template-parts/content/entry_taxonomies.php:24
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: ../uc-execution/template-parts/content/entry_taxonomies.php:31
+msgid "Posted in %s"
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: ../uc-execution/template-parts/content/entry_taxonomies.php:37
+msgid "Tagged %s"
+msgstr ""
+
+#. translators: %s: taxonomy name
+#: ../uc-execution/template-parts/content/entry_taxonomies.php:44
+msgid "%s:"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/error-404.php:16
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/error-404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: ../uc-execution/template-parts/content/error-404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/error-500.php:14
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: ../uc-execution/template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: ../uc-execution/template-parts/content/error.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../uc-execution/template-parts/content/error.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../uc-execution/template-parts/content/error.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../uc-execution/template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../uc-execution/template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/page_header.php:31
+msgid "All things business growth"
+msgstr ""
+
+#. translators: %s: search query
+#: ../uc-execution/template-parts/content/page_header.php:46
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/pagination.php:13
+msgctxt "previous set of search results"
+msgid "Previous"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/pagination.php:14
+msgctxt "next set of search results"
+msgid "Next"
+msgstr ""
+
+#: ../uc-execution/template-parts/content/pagination.php:15
+msgid "Page navigation"
+msgstr ""
+
+#: ../uc-execution/template-parts/footer/info.php:20
+msgid "Sitemap"
+msgstr ""
+
+#: ../uc-execution/template-parts/footer/info.php:24, ../uc-execution/template-parts/home-sections/hero.php:24, ../uc-execution/template-parts/home-sections/your-own-team.php:32, ../uc-execution/template-parts/home-sections/your-vision.php:23
+msgid "Contact us"
+msgstr ""
+
+#: ../uc-execution/template-parts/footer/info.php:29
+msgid "&copy; %d UC Execution."
+msgstr ""
+
+#: ../uc-execution/template-parts/header/navigation.php:17
+msgid "Main menu"
+msgstr ""
+
+#: ../uc-execution/template-parts/header/navigation.php:36
+msgid "Open menu"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/articles.php:76
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: ../uc-execution/template-parts/home-sections/articles.php:79
+msgid "%1$s"
+msgstr ""
+
+#. translators: %s: post date
+#: ../uc-execution/template-parts/home-sections/articles.php:99
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:15
+msgid "Get a creative and intuitive solution aimed at increasing conversions and engagement"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:17
+msgid "Modern, <strong>stunning</strong> and clean design"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:18
+msgid "Emotional, research and psychology based <strong>content and storytelling</strong> that increase loyalty and massively accelerate your sales"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:19
+msgid "Easy to navigate responsive with a standardized view on any browser or device"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:20
+msgid "Funnel-like information architecture educating the users"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:21
+msgid "100% <strong>manageable backend</strong> to connect, add, edit, or remove anything or service"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:22
+msgid "Trustworthy and reliable website"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/creative.php:24
+msgid "You will get a <strong>data-driven</strong> design, highly functional and <strong>very fast</strong> website using performant coding practices explained here (others don't even know about) and <strong>psychological frameworks</strong> to influence user actions."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/hero.php:14
+msgid "<span class=\"underline underline-text\">Build your website</span> using <span class=\"underline underline-text\">2050's technology</span>, <span class=\"underline underline-text\">research</span>, digital <span class=\"underline underline-text\">psychology</span>, and <span class=\"underline underline-text\">dominate</span> your fiercely competitive market."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/hero.php:22
+msgid "Tell Me More"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/hero.php:28
+msgid "After launching your website, we'll help with everything you have to do to grow, expand and shine <span class=\"underline underline-text\">above the competition</span>."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:14
+msgid "We are dedicated and committed to your long-term success"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:15
+msgid "Our goal is to build a high-quality product that 100% will exceed <strong>your expectations</strong>, expand your portfolio of business, keep your phones ringing 24/7, build you a complementary and <strong>universal brand image</strong>, and be proud to show off."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:16
+msgid "After your website launch we will discuss the best path forward and support you <strong>every step of the way</strong> with everything that feeds your business growth:"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:18
+msgid "Website maintenance, updates and support"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:19
+msgid "Analytics & data reporting"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:21
+msgid "Because we want the product <strong>to be successfull</strong> when it goes to market, if you'd like we'll go the extra mile with you on:"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:23
+msgid "Google SEO & Content creation"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:24
+msgid "CRO & A/B testing"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:25
+msgid "Paid ads"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/long-term-success.php:26
+msgid "Marketing, sales and lead generation campaigns"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/mahmoud.php:14
+msgid "Mahmoud is the founder of UC Execution, he is a young entrepreneur and passionate team leader, he worked as a web developer since he was 19, started his own blog, learnt digital marketing, SEO, and CRO to grow his business. He shares the value of the end game you're seeking."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/mahmoud.php:17
+msgid "Talk to Mahmoud"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:14
+msgid "Research & analyses to get it right from the beginning"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:16
+msgid "Mind, journey, empathy maps"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:17
+msgid "Creating user personas"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:18
+msgid "User research & interviews"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:19
+msgid "Usability & user testing"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:20
+msgid "Content research"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:21
+msgid "Competitor research"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:22
+msgid "Usability testing"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:23
+msgid "Keyword research"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:24
+msgid "Information architecture"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:25
+msgid "Market & industry research"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:26
+msgid "Accessibility testing"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:27
+msgid "Heuristic analysis"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:28
+msgid "Copywriting and proofreading"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:29
+msgid "Storytelling and psychology"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:30
+msgid "Qualitative analysis"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:31
+msgid "Quantitative analysis"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:32
+msgid "Motivation and friction points"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/research.php:34
+msgid "We will take care of <strong>all the possible scenarios</strong> that all type of users can generate."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/reviews.php:49
+msgid "By: "
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/scope.php:15
+msgid "No clear vision or a fully planned scope? No problem"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/scope.php:16
+msgid "Just communicate your goals and priorities, <strong>we will</strong> be involved end to end, <strong>create a strategy</strong> around what should be on the website."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/scope.php:18
+msgid "You don't need to be spoon-feeding us, we <strong>can help you</strong> find the starting point"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/scope.php:19
+msgid "We understand the start-up world and how to work with <strong>clients who have </strong><strong>fewer resources</strong> and experience"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/scope.php:21
+msgid "We <strong>have a vision for your work</strong> beyond what you tell us to do thanks to a powerful process we follow."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/solution.php:15
+msgid "Get a solution above and beyond just building a functional website"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/solution.php:16
+msgid "You will have a website that reflects your skills, spirit, and company culture aligned with your <strong>aggressive </strong><strong>marketing</strong><strong> and sales</strong> goals:"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/solution.php:18
+msgid "Brand awareness"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/solution.php:19
+msgid "Profitability and engagement"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/solution.php:20
+msgid "Traffic and SEO"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/solution.php:22
+msgid "We have a <strong>digital marketing component</strong> at the forefront of our mind and will make sure your priorities and strategies are arranged and effective."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/solution.php:23
+msgid "We will push the envelope to take you <strong>where you want to be</strong> with your online presence even if you're faced with a challenge to keep up with the bigger competitors in your space."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:15
+msgid "Empower your business strategy"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:16
+msgid "We're not only working on delivering outstanding websites but also suggesting <strong>workflow improvements</strong>, helpful tools, and unique solutions for your business that will empower your marketing strategy."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:18
+msgid "Ask you practical and critical questions"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:19
+msgid "Dive deeply <strong>into your goals</strong> and business strategy"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:20
+msgid "Conduct the process for the product's vision from beginning to end"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:21
+msgid "Get to understand your business meticulously and completely from the inside."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:22
+msgid "Follow <strong>a process</strong> that gives you the ability to launch new, industry-leading features and marketing initiatives"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:23
+msgid "Provide <strong>strategic suggestions</strong><strong> and recommendations</strong> you hadn't considered before or realized you needed"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:24
+msgid "Tell you what we think might be good or useful so you could make more informed decisions"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/strategy.php:25
+msgid "Help you get the best out of your digital marketing, branding, SEO, email marketing, and demand and lead generation strategies"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:19
+msgid "You will feel that we are part of your own team"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:21
+msgid "We will be super responsive, <strong>efficiently communicate</strong> and build the experience on trust"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:22
+msgid "Understand that a lot of your time is required to accomplish what you need to do to be successful"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:23
+msgid "Automatically provide you with <strong>scheduled reports</strong>"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:24
+msgid "Open to <strong>your preferred</strong> project management systems and collaboration tools"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:25
+msgid "Break down the requirements into functionalities"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:26
+msgid "We have an involved, <strong>personal approach to projects</strong> so you can contact Mahmoud directly without feeling you're lost in a shuffle"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:27
+msgid "Attentively and proactively listen to your requirements and adhere to the outlined timelines"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-own-team.php:29
+msgid "We will communicate with <strong>your schedule</strong> and overcome our time zone differences <strong>without bothering you</strong> waking up at night or early morning to be on stand-ups with us."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:30
+msgid "We believe in your vision and will treat your business as our own"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:31
+msgid "We're more like a <strong>partner to you</strong>, treat you like a priority instead of just a number, take a very proactive approach, put thoughtfulness into each task and follow a <strong>formal and organized process</strong>."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:33
+msgid "We are a small, young in spirit team of <strong>entrepreneurs with a vision,</strong> ethos, and work ethics"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:34
+msgid "Add our Intellectual <strong>contribution to the product</strong> itself based on our own experience both as business people and as web experts"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:35
+msgid "We work on something that is really interesting to us, something we believe in"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:36
+msgid "Find our rhythm quickly, <strong>translate business goals</strong> into user interface concepts and turn your imagination into reality"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:37
+msgid "We understand <strong>your business value</strong>, will bring the concept to the table, and simplify the work on the little details"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:38
+msgid "Consider the big picture while working to help define your product from <strong>all possible angles</strong> and different perspectives"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:39
+msgid "Solve your toughest problems, some of which <strong>you aren't even aware</strong> of."
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:40
+msgid "Every design choice we make is <strong>based on science</strong> and has a purpose"
+msgstr ""
+
+#: ../uc-execution/template-parts/home-sections/your-vision.php:41
+msgid "Never compromise on your vision or quality standards"
+msgstr ""
